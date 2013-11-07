@@ -21,6 +21,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'httparty'
 
 group :development, :test do
   gem 'pry'
