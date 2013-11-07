@@ -7,8 +7,11 @@ gem 'rails', '3.2.15'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'slim'
-gem 'pg'
-gem 'unicorn'
+
+group :production do
+  gem 'pg'
+  gem 'unicorn'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
